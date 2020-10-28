@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="BellaAllergy.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BellaAllergy"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <TextBlock x:Name="textBlock" Margin="26,10,864,613" Text="Select all allergens (Max 4):" TextWrapping="Wrap" FontSize="32"/>
+        <CheckBox x:Name="glutenCheckBox" Content="Gluten" Margin="26,131,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="crustaceansCheckBox" Content="Crustaceans" Margin="26,195,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="eggsCheckBox" Content="Eggs" Margin="26,259,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="fishCheckBox" Content="Fish" Margin="26,328,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+        <CheckBox x:Name="peanutsCheckBox" Content="Peanuts" Margin="26,400,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="soybeansCheckBox" Content="Soybeans" Margin="26,475,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="milkCheckBox" Content="Milk" Margin="26,542,0,0" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment"/>
+        <CheckBox x:Name="treeNutsCheckBox" Content="Tree Nuts" Margin="640,131,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="celeryCheckBox" Content="Celery" Margin="640,195,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+        <CheckBox x:Name="mustardCheckBox" Content="Mustard" Margin="640,259,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+        <CheckBox x:Name="sesameCheckBox" Content="Sesame" Margin="640,328,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+        <CheckBox x:Name="sulphitesCheckBox" Content="Sulphites" Margin="640,400,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="lupinCheckBox" Content="Lupin" Margin="640,475,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="molluscsCheckBox" Content="Molluscs" Margin="640,542,0,0" VerticalAlignment="Top"/>
+    </Grid>
+
+
+
+</Page>
