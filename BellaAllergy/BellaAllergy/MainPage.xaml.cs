@@ -27,6 +27,150 @@ namespace BellaAllergy
             this.InitializeComponent();
         }
 
-      
+        private void glutenCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void glutenCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void crustaceansCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void crustaceansCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void eggsCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void eggsCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void fishCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void fishCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void peanutsCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void peanutsCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void soybeansCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void soybeansCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milkCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milkCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void treeNutsCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void treeNutsCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void celeryCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void celeryCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void mustardCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void mustardCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void sesameCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void sesameCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void sulphitesCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void sulphitesCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void lupinCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void lupinCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void molluscsCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void molluscsCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        private void findDishesButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

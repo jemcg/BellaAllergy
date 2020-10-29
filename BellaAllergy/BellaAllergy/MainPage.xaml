@@ -9,20 +9,51 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid>
         <TextBlock x:Name="textBlock" Margin="26,10,864,613" Text="Select all allergens (Max 4):" TextWrapping="Wrap" FontSize="32"/>
-        <CheckBox x:Name="glutenCheckBox" Content="Gluten:  Bread, baked goods, pasta and sauces" Margin="26,131,0,0" VerticalAlignment="Top" Width="526"/>
-        <CheckBox x:Name="crustaceansCheckBox" Content="Crustaceans:  Crabs, crayfish, lobsters, prawns, fish-sauce and marinades." Margin="26,195,0,0" VerticalAlignment="Top" Width="526"/>
-        <CheckBox x:Name="eggsCheckBox" Content="Eggs:  Pasta, meringues, mayonnaise, salad dressings and cakes." Margin="26,259,0,0" VerticalAlignment="Top" Width="526"/>
-        <CheckBox x:Name="fishCheckBox" Content="Fish:  Ceasar dressing, worcestershire sauce, barbecue sauce and caponata." Margin="26,328,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="526"/>
-        <CheckBox x:Name="peanutsCheckBox" Content="Peanuts:  Biscuits, cakes, desserts and sauces." Margin="26,400,0,0" VerticalAlignment="Top" Width="526"/>
-        <CheckBox x:Name="soybeansCheckBox" Content="Soybeans:  Desserts, meat products, ice-cream, sauces and vegetarian dishes. " Margin="26,475,0,0" VerticalAlignment="Top" Width="526"/>
-        <CheckBox x:Name="milkCheckBox" Content="Milk:  Butter, cheese, cream, milk powders and yoghurt." Margin="26,542,0,0" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment" Width="526"/>
-        <CheckBox x:Name="treeNutsCheckBox" Content="Tree Nuts:  Baked goods, desserts, pesto, salad dressings and mortadella." Margin="640,131,0,0" VerticalAlignment="Top" Width="552"/>
-        <CheckBox x:Name="celeryCheckBox" Content="Celery:  Soups, spice-mixes, processed meats, savoury snacks and sausages" Margin="640,195,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="552"/>
-        <CheckBox x:Name="mustardCheckBox" Content="Mustard:  Ketchup, mayonnaise, pesto, soups and salad dressing." Margin="640,259,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="552"/>
-        <CheckBox x:Name="sesameCheckBox" Content="Sesame:  Bread, soups, marinades and sauces." Margin="640,328,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="552"/>
-        <CheckBox x:Name="sulphitesCheckBox" Content="Sulphites: Beer, wine, cider, vinegar, dried fruits, frozen prawns." Margin="640,400,0,0" VerticalAlignment="Top" Width="552"/>
-        <CheckBox x:Name="lupinCheckBox" Content="Lupin:  Pastries, pancakes, vegetarian meat substitutes and onion rings." Margin="640,475,0,0" VerticalAlignment="Top" Width="552"/>
-        <CheckBox x:Name="molluscsCheckBox" Content="Molluscs:  Oysters, mussels, clams, fish-sauces, soups and sauces." Margin="640,542,0,0" VerticalAlignment="Top" Width="552"/>
+        <CheckBox x:Name="glutenCheckBox" Content="Gluten:  Bread, baked goods, pasta and sauces" 
+                  Margin="26,131,0,0" VerticalAlignment="Top" Width="526"
+                  Checked="glutenCheckBox_Checked" Unchecked="glutenCheckBox_Unchecked"/>
+        <CheckBox x:Name="crustaceansCheckBox" Content="Crustaceans:  Crabs, crayfish, lobsters, prawns, fish-sauce and marinades."
+                  Margin="26,195,0,0" VerticalAlignment="Top" Width="526"
+                  Checked="crustaceansCheckBox_Checked" Unchecked="crustaceansCheckBox_Unchecked"/>
+        <CheckBox x:Name="eggsCheckBox" Content="Eggs:  Pasta, meringues, mayonnaise, salad dressings and cakes."
+                  Margin="26,259,0,0" VerticalAlignment="Top" Width="526"
+                  Checked="eggsCheckBox_Checked" Unchecked="eggsCheckBox_Unchecked"/>
+        <CheckBox x:Name="fishCheckBox" Content="Fish:  Ceasar dressing, worcestershire sauce, barbecue sauce and caponata."
+                  Margin="26,328,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="526"
+                  Checked="fishCheckBox_Checked" Unchecked="fishCheckBox_Unchecked"/>
+        <CheckBox x:Name="peanutsCheckBox" Content="Peanuts:  Biscuits, cakes, desserts and sauces."
+                  Margin="26,400,0,0" VerticalAlignment="Top" Width="526"
+                  Checked="peanutsCheckBox_Checked" Unchecked="peanutsCheckBox_Unchecked"/>
+        <CheckBox x:Name="soybeansCheckBox" Content="Soybeans:  Desserts, meat products, ice-cream, sauces and vegetarian dishes."
+                  Margin="26,475,0,0" VerticalAlignment="Top" Width="526"
+                  Checked="soybeansCheckBox_Checked" Unchecked="soybeansCheckBox_Unchecked"/>
+        <CheckBox x:Name="milkCheckBox" Content="Milk:  Butter, cheese, cream, milk powders and yoghurt."
+                  Margin="26,542,0,0" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment" Width="526"
+                  Checked="milkCheckBox_Checked" Unchecked="milkCheckBox_Unchecked"/>
+        <CheckBox x:Name="treeNutsCheckBox" Content="Tree Nuts:  Baked goods, desserts, pesto, salad dressings and mortadella."
+                  Margin="640,131,0,0" VerticalAlignment="Top" Width="552"
+                  Checked="treeNutsCheckBox_Checked" Unchecked="treeNutsCheckBox_Unchecked"/>
+        <CheckBox x:Name="celeryCheckBox" Content="Celery:  Soups, spice-mixes, processed meats, savoury snacks and sausages"
+                  Margin="640,195,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="552"
+                  Checked="celeryCheckBox_Checked" Unchecked="celeryCheckBox_Unchecked"/>
+        <CheckBox x:Name="mustardCheckBox" Content="Mustard:  Ketchup, mayonnaise, pesto, soups and salad dressing."
+                  Margin="640,259,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="552"
+                  Checked="mustardCheckBox_Checked" Unchecked="mustardCheckBox_Unchecked"/>
+        <CheckBox x:Name="sesameCheckBox" Content="Sesame:  Bread, soups, marinades and sauces."
+                  Margin="640,328,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="552"
+                  Checked="sesameCheckBox_Checked" Unchecked="sesameCheckBox_Unchecked"/>
+        <CheckBox x:Name="sulphitesCheckBox" Content="Sulphites: Beer, wine, cider, vinegar, dried fruits, frozen prawns."
+                  Margin="640,400,0,0" VerticalAlignment="Top" Width="552"
+                  Checked="sulphitesCheckBox_Checked" Unchecked="sulphitesCheckBox_Unchecked"/>
+        <CheckBox x:Name="lupinCheckBox" Content="Lupin:  Pastries, pancakes, vegetarian meat substitutes and onion rings."
+                  Margin="640,475,0,0" VerticalAlignment="Top" Width="552"
+                  Checked="lupinCheckBox_Checked" Unchecked="lupinCheckBox_Unchecked"/>
+        <CheckBox x:Name="molluscsCheckBox" Content="Molluscs:  Oysters, mussels, clams, fish-sauces, soups and sauces."
+                  Margin="640,542,0,0" VerticalAlignment="Top" Width="552"
+                  Checked="molluscsCheckBox_Checked" Unchecked="molluscsCheckBox_Unchecked"/>
+        <Button x:Name="findDishesButton" Content="Find dishes" 
+                Margin="933,628,0,0" VerticalAlignment="Top" Height="58" Width="143"
+                Click="findDishesButton_Click"/>
     </Grid>
 
 
